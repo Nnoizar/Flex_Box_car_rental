@@ -15,8 +15,6 @@ body {
     background-color: hsl(0, 0%, 95%);
 }
 
-
-
 .boxes {
     display: flex;
     justify-content: center
