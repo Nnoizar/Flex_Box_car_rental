@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*outline: 2px solid black;*/
+}
+
+:root {
+    /*konverterer skriftstørrelse og linjehøyde, lager mine egene variable*/
+    --40pts: 53.33332px;
+    --16pts: 21px;
+    --20lh: 2rem;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+
+
+.boxes {
+    display: flex;
+    justify-content: center
+}
+
+.boxes {
+    padding-top: 50px;
+    border-radius: 10px;
+    ;
+}
+
+.box1 {
+    background-color: hsl(31, 77%, 52%);
+    padding-top: 45px;
+    padding-bottom: 49px;
+    padding-left: 48px;
+    padding-right: 48px;
+    width: 220px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.box2 {
+    background-color: hsl(184, 100%, 22%);
+    padding-top: 45px;
+    padding-bottom: 49px;
+    padding-left: 48px;
+    padding-right: 48px;
+    width: 220px;
+}
+
+.box3 {
+    background-color: hsl(179, 100%, 13%);
+    padding-top: 45px;
+    padding-bottom: 49px;
+    padding-left: 48px;
+    padding-right: 48px;
+    width: 220px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+p {
+    margin-top: 40px;
+    margin-bottom: 90px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", serif;
+    line-height: var(--20lh);
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", serif;
+    font-size: var(--40pts);
+}
+
+img {
+    padding-bottom: 40px;
+    ;
+}
+
+button {
+    border-radius: 22px;
+    background-color: hsl(0, 0%, 95%);
+    width: 146px;
+    height: 48px;
+    align-content: center;
+    border: none;
+}
+
+.box1 button {
+    color: hsl(31, 77%, 52%);
+}
+
+.box2 button {
+    color: hsl(184, 100%, 22%);
+}
+
+.box3 button {
+    color: hsl(179, 100%, 13%);
+}
